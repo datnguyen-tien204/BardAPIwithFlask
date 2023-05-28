@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/ask', methods=['POST'])
 def ask_question():
     try:
-        os.environ['_BARD_API_KEY'] = "Wgia2rCHhIRVedZnzFDiWOTC_fJsyh4y9rl_42oytOsvzVDAbCE5t9AbmCqNbytFzssV8w."
+        os.environ['_BARD_API_KEY'] = "Enter your API"
         input_text = request.form['question']
 
         translator2 = Translator()
