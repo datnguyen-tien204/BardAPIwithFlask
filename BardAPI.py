@@ -4,7 +4,7 @@ from googletrans import Translator
 
 
 while (True):
-    os.environ['_BARD_API_KEY'] = "Wgia2rCHhIRVedZnzFDiWOTC_fJsyh4y9rl_42oytOsvzVDAbCE5t9AbmCqNbytFzssV8w."
+    os.environ['_BARD_API_KEY'] = "Enter your API Key"
     input_text = input("Hãy hỏi gì đó : ")
     translator2=Translator()
     translated_content2 = translator2.translate(input_text, src='vi', dest='en').text
